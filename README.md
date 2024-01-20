@@ -1,6 +1,5 @@
 # WebApp-Agendamento
 
-
 ## Tecnologias:
 - Frontend: 
   - NextJS
@@ -10,6 +9,7 @@
   - Express
 - Banco de Dados:
   - Postgres
+  - Mysql
 
 ## Descrição Do Projeto
 - Este projeto foi desenvolvido pensando em uma solução que visa otimizar o processo de atendimento ao cliente e o agendamendamento de compromissos. Esse sistema pode ser utilizado por diversos setores, como saúde, serviços de beleza, consultorias e qualquer empreendimento que necessita organizar suas demandas diárias.
@@ -36,3 +36,38 @@
 
 ### Pós Atendimento
 - Ao fim do atendimento será enviado ao cliente um pesquisa de satisfação do atendimento onde será o mesmo fazer avalições do local, dos profissionais e deixar susgestões para melhoras sua experiência com o serviço prestado.
+
+
+# COMO RODAR O PROJETO BAIXADO
+
+### Instalar todas as dependencias indicada pelo package.json
+```
+npm install
+```
+
+## Criar a base de dados "webapp" no DB
+
+### Renomear o arquivo ".env.exemplo" para ".env" e alterar as credencias do banco de dados no arquivo
+
+### Executar as migrations
+```
+npx sequelize-cli db:migrate
+```
+
+### Executar as seeders
+```
+npx sequelize-cli db:seed:all
+```
+
+### Rodar o projeto
+```
+node app.js
+```
+
+### Rodar o projeto usando o nodemon
+```
+nodemon app.js
+```
+
+### No lugar "port" alterar para porta que declarou no arquivo ".env", e abrir o endereço no navegador para acessar conteudo cliente
+http://localhost:port/cliente
