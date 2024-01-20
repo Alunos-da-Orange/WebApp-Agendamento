@@ -5,7 +5,7 @@ const express = require("express");
 // Testar conexão com banco de dados
 const db = require("../db/models");
 
-// Chamar a função express
+// Chamar a função `Router` do express
 const router = express.Router();
 
 // Criar a rota visualizar com método get
