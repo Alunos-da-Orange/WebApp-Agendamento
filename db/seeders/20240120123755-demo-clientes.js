@@ -10,8 +10,17 @@ module.exports = {
     return queryInterface.bulkInsert ('Clientes', [
       {
         nome: 'Web App',
+        sobrenome: 'Alunos',
         email: 'alunos@orange.com',
         contato: '7198542-4286',
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        nome: 'Agendamento',
+        sobrenome: 'Atendimento',
+        email: 'atendimento@agenda.com',
+        contato: '7198212-5897',
         createdAt: new Date(),
         updatedAt: new Date(),
       }

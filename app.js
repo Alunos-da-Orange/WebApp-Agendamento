@@ -16,5 +16,6 @@ app.use('/cliente', cliente);
 
 // Iniciar o servidor utilizando funcao modelo Arrow function para retornar a mensagem de sucesso
 app.listen(process.env.PORT, () => { 
-    console.log('Servidor iniciado na porta' );
+    console.log(`Servidor iniciado na porta (${process.env.PORT}) aperte Ctrl e clique no link abaixo 
+     \n http://localhost:${process.env.PORT}/cliente \n`);
 });

@@ -22,6 +22,7 @@ module.exports = (sequelize, DataTypes) => {
   // Criala as colunas que a `Models` pode manipular
   Clientes.init({
     nome: DataTypes.STRING,
+    sobrenome: DataTypes.STRING,
     email: DataTypes.STRING,
     contato: DataTypes.STRING
   }, {

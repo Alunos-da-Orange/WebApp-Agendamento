@@ -16,10 +16,11 @@ router.get("/", async (req, res) => {
 
     // Buscar apenas um registro no banco de dados
     // https://sequelize.org/docs/v6/core-concepts/model-querying-finders/#findone
-    const clientes =  await db.Clientes.findOne({
+    //const clientes =  await db.Clientes.findOne({
+    const clientes =  await db.Clientes.findAll({
         // Indicar quais colunas recuperar
         // https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#specifying-attributes-for-select-queries
-        attributes: ["nome", "email", "contato"],    
+        attributes: ["nome", "email", "sobrenome", "contato"],    
         
         //acrescentar condicao para indicar qual registro sera retornado do banco de dados
         // https://sequelize.org/docs/v6/core-concepts/model-querying-basics/#applying-where-clauses
