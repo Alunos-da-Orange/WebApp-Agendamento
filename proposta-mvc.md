@@ -1,8 +1,8 @@
 **Introdução à Adoção do Padrão MVC no Projeto:**
 
-Caros membros da equipe,
+Caros membros dessa equipe,
 
-Gostaria de compartilhar uma proposta para melhorar a estrutura e a manutenibilidade do nosso projeto. Atualmente, nossa aplicação segue uma estrutura mais básica, que pode eventualmente tornar-se desafiadora conforme o projeto cresce em complexidade e funcionalidades.
+Gostaria de compartilhar uma proposta para melhorar a estrutura e a manutenibilidade do projeto. Atualmente, a aplicação segue uma estrutura mais básica, que pode eventualmente tornar-se desafiadora conforme o projeto cresce em complexidade e funcionalidades.
 
 **Desafios Atuais:**
 - *Complexidade Crescente:* À medida que adicionamos novas funcionalidades, a estrutura atual pode tornar-se mais difícil de gerenciar e entender.
@@ -18,11 +18,11 @@ Acredito que a adoção do padrão MVC (Model-View-Controller) seria uma soluç�
 4. *Escalabilidade:* A arquitetura MVC proporciona uma base sólida para o crescimento do projeto, sem comprometer a estrutura existente.
 
 **Próximos Passos:**
-Gostaria de ouvir a opinião de todos sobre essa proposta. Podemos discutir como poderíamos implementar essa mudança de maneira eficiente, minimizando o impacto nas tarefas atuais. Estou aberto a sugestões e feedback.
+Podem discutir como implementar essa mudança de maneira eficiente, minimizando o impacto nas tarefas atuais. Não faço mais parte da comunidade Orange, e como não houve nenhuma manifestação também estou saindo do projeto, mas deixarei o que fiz pra vocês!
 
-Vamos trabalhar juntos para garantir que nosso projeto cresça de maneira sustentável e mantenha-se robusto no longo prazo.
+Trabalhem juntos para garantir que o projeto cresça de maneira sustentável e mantenha-se robusto no longo prazo.
 
-Agradeço pela atenção de todos.
+Agradeço pela atenção de todos, desejo sucesso!
 
 Atenciosamente,
 
